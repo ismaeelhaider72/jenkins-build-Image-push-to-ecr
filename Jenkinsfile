@@ -1,6 +1,5 @@
 pipeline {
     agent any
-    tools {git "git"} 
     environment {
         AWS_ACCOUNT_ID=credentials('accountid')
         AWS_DEFAULT_REGION="us-east-1"
